@@ -28,13 +28,12 @@ Users should be able to:
 ![](./images/Screenshot.jpeg)
 ![](./images/Screenshot1.jpeg)
 ![](./images/Screenshot2.jpeg)
-![](./images/Screenshot3.jpeg)
 
 
 ### Links
 
-- Solution URL:(https://github.com/karam-7/social-media-theme-switcher)
-- Live Site URL:(https://karam-7.github.io/social-media-theme-switcher/)
+- Solution URL:(https://github.com/karam-7/insure-landing-page)
+- Live Site URL:(https://karam-7.github.io/insure-landing-page/)
 
 ## My process
 
