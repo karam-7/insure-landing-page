@@ -1,0 +1,602 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Karla:wght@400;700&display=swap');
+
+*{
+    box-sizing: border-box;
+    line-height: 1rem;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    min-width: 1340px;     
+    min-height: 100vh;  
+}
+
+/* ======================== Star Main Area ================ */
+/* ======================== Start Navbar & Header AREA ================ */
+
+#bar{
+    display: flex;
+    padding: 2rem 6rem;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#ham{
+    display: none;
+}
+
+.side{
+    display: flex;
+    gap: 1.5rem;
+    align-items: center;
+}
+
+.side-a{
+    font-size: 1.3rem;
+    color:  hsl(273, 4%, 51%);
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.3rem;
+    font-family: 'Karla';
+    cursor: pointer;
+}
+
+.side-a:hover{
+    color: hsl(256, 26%, 20%);
+}
+
+.side-btn{
+    font-size: 1.2rem;
+    color: hsl(270, 9%, 17%);
+    font-family: 'Karla';
+    font-weight: 700;
+    padding: 0.5rem 1rem;
+    background: transparent;
+    border: 2px solid hsl(270, 9%, 17%);
+    cursor: pointer;
+}
+
+.side-btn:hover{
+    background: hsl(256, 26%, 20%);
+    color: hsl(0, 0%, 98%);
+}
+
+/* ==Header AREA== */
+
+#head{
+    background: hsl(256, 26%, 20%);
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 1rem;
+    padding: 8rem 6rem;
+    height: 640px;
+    position: relative;
+}
+
+.right-img{
+    z-index: 1;
+    position: absolute;
+    height: 84%;
+    right: 0rem;
+    top: 0rem;
+}
+
+.head-img{
+    position: absolute;
+}
+
+.intro{
+    position: absolute;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    left: 50px;
+}
+
+.head-hr{
+    width: 30%;
+}
+
+.head-h1{
+    font-size: 4rem;
+    line-height: 4rem;
+    color: hsl(0, 0%, 98%);
+    font-family: 'DM Serif Display';
+    font-weight: 400;
+    margin-top: 3rem;
+    width: 450px;
+}
+
+.head-p{
+    font-size: 1.1rem;
+    color: hsl(0, 0%, 98%);
+    line-height: 1.5rem;
+    font-family: 'Karla';
+    font-weight: 400;
+    margin-top: 2rem;
+    width: 600px;
+}
+
+.head-btn{
+    margin-top: 2rem;
+    font-size: 1rem;
+    color: hsl(0, 0%, 98%);
+    font-family: 'Karla';
+    font-weight: 700;
+    padding: 0.5rem 1rem;
+    background: transparent;
+    border: 2px solid hsl(0, 0%, 98%);
+    cursor: pointer;
+    width: 150px;
+}
+
+.head-btn:hover{
+    background-color: hsl(0, 0%, 98%);
+    color: hsl(256, 26%, 20%);
+}
+
+.left-img{
+    position: absolute;
+    left: 0;
+    bottom: -20rem;
+    
+}
+
+/* ======================== Start Info AREA ================ */
+
+#info{
+    padding: 16rem 6rem;
+    padding-bottom: 2rem;
+}
+
+.info-hr{
+    width: 150px;
+    margin-top: 2rem;
+}
+
+.info-h2{
+    font-size: 3rem;
+    font-family: 'DM Serif Display';
+    font-weight: 400;
+    margin-top: 3rem;
+    color: hsl(256, 26%, 20%);
+}
+
+.info-div{
+    display: flex;
+    flex-direction: row;
+    margin-top: 5rem;
+    justify-content: space-between;
+}
+
+.info-h3{
+    font-size: 2rem;
+    font-family: 'Karla';
+    font-weight: 700;
+    color: hsl(256, 26%, 20%);
+    margin-top: 2rem;
+}
+
+.info-p{
+    font-size: 1rem;
+    line-height: 1.5rem;
+    font-family: 'Karla';
+    color: hsl(273, 4%, 51%);
+    margin-top: 2rem;
+    width: 350px;
+}
+
+
+/* ==Work AREA== */
+
+.work{
+    margin-top: 10rem;
+    display: flex;
+    justify-content: space-between;
+    padding: 3rem 8rem;
+    align-items: center;
+    background-color: hsl(256, 26%, 20%);
+    background-image: url(./images/bg-pattern-how-we-work-desktop.svg);
+    background-repeat: no-repeat;   
+    background-size: contain;
+    background-position: right;
+}
+
+.work-h3{
+    font-size: 3rem;
+    font-family: 'DM Serif Display';
+    font-weight: 400;
+    color: hsl(0, 0%, 98%);
+    width: 420px;
+    line-height: 3rem;
+}
+
+.work-btn{
+    margin-top: 2rem;
+    font-size: 1rem;
+    color: hsl(0, 0%, 98%);
+    font-family: 'Karla';
+    font-weight: 700;
+    padding: 0.5rem 1rem;
+    background: transparent;
+    border: 2px solid hsl(0, 0%, 98%);
+    cursor: pointer;
+    width: 150px;
+}
+
+.work-btn:hover{
+    background-color: hsl(0, 0%, 98%);
+    color: hsl(256, 26%, 20%);
+}
+
+/* ======================== Start Footer AREA ================ */
+
+#footer{
+    padding: 2rem 6rem;
+    margin-top: 8rem;
+    background-color: hsl(0, 0%, 98%);
+    background-image: url(./images/bg-pattern-footer-desktop.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: top-left;
+    background-size: calc(35%);
+}
+
+.foot-nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 1rem;
+}
+
+.social{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 1rem;
+}
+
+.social i{
+    color: hsl(216, 30%, 68%);
+    cursor: pointer;
+}
+
+.social i:hover{
+    color: hsl(256, 26%, 20%);
+}
+
+.foot-hr{
+    margin-top: 2rem;
+}
+
+.footer-div{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 2rem;
+    width: 85%;
+}
+
+.footer-h4{
+    font-size: 1.2rem;
+    color: hsl(216, 30%, 68%);
+    font-weight: 400;
+    font-family: 'DM Serif Display';
+}
+
+.footer-div1{
+    align-items: center;
+}
+
+.footer-div2{
+    display: flex;
+    flex-direction: column;
+    margin-top: 2rem;
+}
+
+.footer-span{
+    color: hsl(256, 26%, 20%);
+    font-size: 1.1rem;
+    font-weight: 700;
+    font-family: 'Karla';
+    margin-top: 1rem;
+    cursor: pointer;
+    width: fit-content;
+}
+
+.footer-span:hover{
+    border-bottom: 1px solid hsl(256, 26%, 20%);
+}
+
+/* ======================== End Main Area ================ */
+
+/* ======================== START Footer Area ================ */
+
+.foot {
+    text-align: center;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.2rem;
+    line-height: 1rem;
+    color: hsl(35, 77%, 62%);
+    justify-content: center;
+    background-color: hsl(240, 10%, 16%);
+    line-height: 1.5rem;
+    padding: 5px;
+}
+  
+.foot a {
+    color: hsl(5, 85%, 63%);
+    text-decoration: none;
+}
+
+.foot a:hover{
+    color: white;
+}
+
+/* ======================== End Footer Area ================ */
+  
+/* ======================== Start Media Querry Area ================ */
+@media screen and (max-width:768px){
+    body{
+        min-width: 768px;
+    }
+
+    #bar{
+        padding: 2rem 3rem;
+    }
+    
+    #ham{
+        display: grid;
+        padding: 1rem;
+        background: transparent;
+        border: 3px solid hsl(270, 9%, 17%);
+    }
+
+    #ham i:last-child {
+        display: none;
+    }
+      
+    body.open #ham i:first-child {
+        display: none;
+    }
+      
+    body.open #ham i:last-child {
+        display: block;
+    }
+      
+    .overlay {
+        position: fixed;
+        z-index: 2;
+        top: 6rem;
+        left: 0;
+        bottom: 0;
+        right: 0;
+        background: rgb(27 32 44 / 70%);
+        visibility: hidden;
+        opacity: 0;
+        backdrop-filter: blur(6px);
+        transition: 0.3s;
+    }
+      
+    body.open .overlay {
+        visibility: visible;
+        opacity: 1;
+    }
+
+    aside {
+        position: fixed;
+        z-index: 2;
+        top: 6rem;
+        right: 0;
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: 100%;
+        padding: 5rem 18px 20px 20px;
+        background: #272e3c;
+        box-shadow: 0 0 20px rgb(0 0 0 / 70%);
+        translate: 100% 0;
+        transition: 0.3s;
+        background-image: url(./images/bg-pattern-mobile-nav.svg);
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: bottom;
+    }
+      
+    body.open aside {
+        translate: 0;
+    }
+
+    .side-a{
+        color: hsl(0, 0%, 98%);
+        margin-top: 0.5rem;
+    }
+
+    .side-a:hover{
+        color: hsl(216, 30%, 68%);
+    }
+
+    .side-btn{
+        margin-top: 2rem;
+        background: transparent;
+        color: hsl(0, 0%, 98%);
+        border: 2px solid hsl(0, 0%, 98%);
+
+    }
+
+    .side-btn:hover{
+        background: hsl(0, 0%, 98%);
+        color: hsl(256, 26%, 20%);
+       
+    }
+
+    #head{
+        flex-direction: column;
+        padding: 3rem ;
+        height: auto;
+    }
+
+    .head-img{
+        position: relative;
+        width: 100%;
+    }
+
+    .right-img{
+        content: url(./images/bg-pattern-intro-right-mobile.svg);
+        top: 63rem;
+        right: 0;
+        height: 50%;
+    }
+
+    .left-img{
+        content: url(./images/bg-pattern-intro-left-mobile.svg);
+        bottom: 17rem;
+
+    }
+
+    .intro{
+        position: relative;
+        text-align: center;
+        left: 0px;
+    }
+
+    .head-hr, .info-hr{
+       margin-top: 2rem;
+       margin-left: 15rem;
+    }
+
+    .head-h1, .head-p, .head-btn{
+        width: fit-content;
+        text-align: center;
+    }
+
+    #info{
+        text-align: center;
+    }
+
+    .info-div{
+        flex-direction: column;
+    }
+
+    .info-p{
+        width: auto;
+    }
+
+    .work{
+        flex-direction: column;
+    }
+
+    #footer{
+        text-align: center;
+        background-size: calc(53%);
+    }
+
+    .social{
+        margin-top: 3rem;
+    }
+
+    .footer-div{
+        width: 100%;
+    }
+}
+
+@media screen and (max-width:375px){
+    body{
+        min-width: 375px;
+    }
+
+    #bar{
+        padding: 2rem;
+    }
+
+    #head{
+        padding: 0rem;
+    }
+
+
+    .right-img{
+        top: 46rem;
+    }
+
+    .left-img{
+        bottom: 18rem;
+    }
+
+    .head-hr{
+        display: none;
+    }
+
+    .head-h1{
+        font-size: 2.5rem;
+        width: 300px;
+        line-height: 3rem;
+        margin-left: 2rem;
+    }
+
+    .head-p{
+        font-size: 0.9rem;
+        width: 290px;
+        margin-left: 2rem;
+    }
+
+    .head-btn{
+        margin-left: 7.5rem;
+        margin-bottom: 5rem;
+    }
+
+    .info-hr{
+        margin-left: 6rem;
+    }
+
+    #info{
+        padding: 6rem 0;
+    }
+
+    .info-div1{
+        margin-top: 3rem;
+    }
+
+    .work{
+        margin: 6rem 2rem 0rem 2rem;
+        background-image: url(./images/bg-pattern-how-we-work-mobile.svg);
+        padding: 3rem;
+    }
+
+    .work-h3{
+        font-size: 2rem;
+        width: 250px;
+    }
+
+    #footer{
+        padding: 2rem 0rem;
+        text-align: center;
+        background-image: url(./images/bg-pattern-footer-mobile.svg);
+        background-size: calc(100%);
+        margin-top: 5rem;
+    }
+
+    .foot-nav{
+        flex-direction: column;
+    }
+
+    .footer-div{
+        flex-direction: column;
+        width: auto;
+        text-align: center;
+        justify-content: center;
+    }
+
+    .footer-h4{
+        margin-top: 3rem;
+    }
+
+    .footer-div2{
+        text-align: center;
+        align-items: center;
+        margin-top: 1rem;
+    }
+
+}
